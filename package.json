@@ -119,7 +119,7 @@
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-postcss": "4.0.0",
     "tailwindcss": "2.1.4",
-    "twin.macro": "2.5.0",
+    "twin.macro": "2.8.2",
     "typescript": "4.3.3",
     "webpack": "4.44.2",
     "webpack-merge": "5.8.0"
