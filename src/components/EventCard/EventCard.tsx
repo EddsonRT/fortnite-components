@@ -180,15 +180,16 @@ const EventCard: React.FC<EventCardProps> = ({
                 tw`text-center`
               ]}
             >
-              {dates.map((i: any) => {
+              {dates && dates.map((i: any, index) => {
                 return (
                   <span
+                    key={index}
                     style={
                       new Date(i.end) < new Date()
                         ? {
-                            color: datesColor,
-                            textDecoration: 'line-through #fff'
-                          }
+                          color: datesColor,
+                          textDecoration: 'line-through #fff'
+                        }
                         : {}
                     }
                     css={[

@@ -1,6 +1,6 @@
 {
   "name": "fortnite-components",
-  "version": "1.30.0",
+  "version": "1.50.0",
   "description": "A library of fortnite components",
   "author": "EddsonRT",
   "repository": {
@@ -18,7 +18,7 @@
     "dist"
   ],
   "scripts": {
-    "dev": "yarn build && cd example && yarn && yarn start",
+    "dev": "yarn build && cd example && yarn && yarn dev",
     "prebuild": "rimraf dist",
     "build": "tsc && rollup -c",
     "build:watch": "rollup -c --watch",
@@ -93,6 +93,7 @@
     "babel-plugin-module-resolver": "4.1.0",
     "babel-plugin-twin": "1.0.2",
     "chromatic": "5.9.2",
+    "css-loader": "^5.0.0",
     "eslint": "7.28.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-config-standard": "16.0.3",
@@ -104,7 +105,10 @@
     "eslint-plugin-standard": "5.0.0",
     "husky": "6.0.0",
     "lint-staged": "11.0.0",
-    "postcss": "8.3.4",
+    "postcss": "^8.1.10",
+    "postcss-import": "^13.0.0",
+    "postcss-loader": "^4.1.0",
+    "postcss-url": "^10.1.1",
     "prettier": "2.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",

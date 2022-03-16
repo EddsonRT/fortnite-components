@@ -10,7 +10,6 @@ import {
   PresetCard,
   GameCard
 } from 'fortnite-components'
-import './index.css'
 
 const App = () => {
   return (

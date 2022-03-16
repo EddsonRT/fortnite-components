@@ -1,3 +1,7 @@
+.animate-fish {
+  animation: fish 5s ease-in-out infinite;
+}
+
 @font-face {
   font-family: 'Burbank Big Condensed';
   src: url('//db.onlinewebfonts.com/t/cdc8c3de1e6bd5a9a67c6a001f9fedd0.eot');
@@ -13,9 +17,6 @@
       format('svg');
 }
 
-.animate-fish {
-  animation: fish 5s ease-in-out infinite;
-}
 @keyframes fish {
   0% {
     transform: translateY(10px) scaleX(-1);

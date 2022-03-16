@@ -1,18 +1,16 @@
 {
-  "name": "example",
+  "name": "fortnite-components-example-app",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
-    "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
-    "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
-    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "fortnite-components": "link:../",
+    "next": "^12.1.0",
     "react": "link:../node_modules/react",
-    "react-dom": "link:../node_modules/react-dom",
-    "react-scripts": "link:../node_modules/react-scripts"
+    "react-dom": "link:../node_modules/react-dom"
   },
   "browserslist": [
     ">0.2%",
