@@ -4,7 +4,6 @@
 build-storybook.log*
 yarn-error.log
 .env
-coverage
 
 /example/node_modules
 /example/build

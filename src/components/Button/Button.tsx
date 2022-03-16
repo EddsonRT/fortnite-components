@@ -2,7 +2,7 @@ import React from 'react'
 import tw from 'twin.macro'
 
 import { ButtonProps } from './types'
-// import '@styles/index.css'
+import '@styles/index.css'
 
 const Button: React.FC<ButtonProps> = ({
   label = '',
